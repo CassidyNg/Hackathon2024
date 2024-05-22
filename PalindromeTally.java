@@ -35,5 +35,11 @@ public class PalindromeTally {
     public static void main(String[] args) {
         String[] array = {"fridge", "pottery", "radar", "kitten", "noon", "repaper", "tenet"};
         System.out.println(palindromeFinder(array));
+
+        String[] array2 = {"civic", "dewy", "lantern", "kayak", "shoe"};
+        System.out.println(palindromeFinder(array2));
+
+        String[] array3 = {"racecar", "booklet", "sand", "moon"};
+        System.out.println(palindromeFinder(array3));
     }
 }

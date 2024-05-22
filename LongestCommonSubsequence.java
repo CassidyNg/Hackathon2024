@@ -1,5 +1,5 @@
 public class LongestCommonSubsequence {
-    public static int LCS(String text1, String text2) {
+    public static int longestCommonSequence(String text1, String text2) {
         int m = text1.length();
         int n = text2.length();
         int[][] dp = new int[m + 1][n + 1];
@@ -18,8 +18,16 @@ public class LongestCommonSubsequence {
     }
 
     public static void main(String[] args) {
-        String text1 = "abcba";
-        String text2 = "abcbcba";
-        System.out.println(LCS(text1, text2));
+        String text1 = "abcde";
+        String text2 = "ace";
+        System.out.println(longestCommonSequence(text1, text2));
+
+        String series1 = "abcba";
+        String series2 = "abcbcba";
+        System.out.println(longestCommonSequence(series1, series2));
+
+        String input1 = "abracadabera";
+        String input2 = "abrabedara";
+        System.out.println(longestCommonSequence(input1, input2));
     }
 }

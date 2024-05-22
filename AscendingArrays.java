@@ -19,5 +19,24 @@ public class AscendingArrays {
         for (int num : input) {
             System.out.print(num + " ");
         }
+        System.out.println();
+
+
+        int[] input2 = {8, 19, 1, 85, 34, 25};
+        sortArray(input2);
+
+        for (int num : input2) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+
+        
+        int[] input3 = {11, 73, 29, 58, 45};
+        sortArray(input3);
+
+        for (int num : input3) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
     }
 }
